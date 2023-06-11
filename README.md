@@ -33,3 +33,7 @@ Start the local development server
     php artisan serve
 
 You can now access the server at http://localhost:8000
+
+To run the local tests
+
+    php artisan test
