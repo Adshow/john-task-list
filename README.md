@@ -37,3 +37,23 @@ You can now access the server at http://localhost:8000
 To run the local tests
 
     php artisan test
+
+## Deploy with Docker
+
+To execute this project with Docker exec
+
+```bash
+  docker-compose up --build
+```
+
+To run the migration
+
+```bash
+  docker-compose exec web php artisan migrate
+```
+
+To run the tests
+
+```bash
+  docker-compose exec web php artisan test
+```
